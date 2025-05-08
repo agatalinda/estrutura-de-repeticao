@@ -8,7 +8,7 @@ public class EstruturaWhile {
             if (valorDoce> mesada)
             valorDoce = mesada; //mesada = mesada - valorDoce; //mesada -= valorDoce; //mesada = mesada - valorDoce;
 
-            System.out.println("Você comprou um doce de R$" + valorDoce +"Adicionado no carrinho'" + mesada);
+            System.out.println("Você comprou um doce de R$" + valorDoce +"Adicionado no carrinho'" );
             mesada = mesada - valorDoce; //mesada -= valorDoce; //mesada = mesada - valorDoce;
         }
 
